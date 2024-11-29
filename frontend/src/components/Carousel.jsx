@@ -13,7 +13,7 @@ const CarouselComponent = () => {
   });
 
   // Unsplash API
-  const UNSPLASH_ACCESS_KEY = import.meta.env.VITE_UNSPLASH_ACCESS_KEY;
+  const UNSPLASH_ACCESS_KEY = "2sMGz6dceM4oBfG8PtgWXkzn3eCk-R1ZZ_mPQC914iY";
 
   useEffect(() => {
     const fetchImages = async () => {
